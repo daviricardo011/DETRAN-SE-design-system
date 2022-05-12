@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import './styles.css'
 import { urls } from '../../../../../main/routes/urls'
 import LogoGov from '../../../../../main/assets/images/LogoGov.svg'
-import Logo from '../../../../../main/assets/images/Logo-completo-branco.svg'
+import Logo from '../../../../../main/assets/images/logo-verbose-white.svg'
 
 
 function Navbar(props) {
@@ -12,7 +12,7 @@ function Navbar(props) {
         <div className="containerNavBar fixed-top">
             <div className='pl-2 pr-2 backgroundHeaderNavbar'>
                 <div className='d-flex justify-content-between'>
-                    <img src={Logo} alt='Detran Logo' className='brand-image imgLogo' />
+                    <img src={Logo} alt="Detran Logo" class="brand-image imgLogoDetran" />
                     <img src={LogoGov} alt='Detran Gov Logo' className='brand-image imgLogo' />
                 </div>
             </div>

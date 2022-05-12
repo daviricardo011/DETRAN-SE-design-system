@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import {
-    Home, Crlve
+    Home, ComponentsScreen
 } from '../../presentation/screens'
 import { Menu } from '../../presentation/components'
 import { urls } from './urls'
@@ -17,7 +17,7 @@ const AppRoutes = () => {
         <Menu userData={user}>
             <Routes>
                 <Route path={`${urls.home}`} element={<Home />} />
-                <Route path={`${urls.crlve}`} element={<Crlve />} />
+                <Route path={`${urls.componentsScreen}`} element={<ComponentsScreen />} />
             </Routes>
         </Menu>
     )

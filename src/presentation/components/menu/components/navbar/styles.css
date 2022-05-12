@@ -17,8 +17,14 @@ a:hover {
   background-color: #0357B6;
 }
 
+.imgLogoDetran {
+  width: 100px;
+  margin: 5px 50px;
+}
+
 .imgLogo {
-  width: 250px;
+  width: 150px;
+  margin: -10px 50px;
 }
 
 .navbar-color {

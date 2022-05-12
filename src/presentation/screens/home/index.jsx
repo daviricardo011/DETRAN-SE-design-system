@@ -14,7 +14,7 @@ export default function Crlve() {
         },
         {
             title: 'Lista de Componentes',
-            url: urls.crlve,
+            url: urls.componentsScreen,
         },
     ]
 

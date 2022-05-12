@@ -8,8 +8,8 @@ function Menu(props) {
         <div className='wrapper'>
             <Navbar userData={props.userData} />
             <Aside />
-            <div className='content-wrapper d-flex justify-content-center '>
-                <section className='content marginContent bg-light'>
+            <div className='content-wrapper bg-light'>
+                <section className='marginContent bg-light'>
                     {props.children}
                 </section>
             </div>

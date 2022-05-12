@@ -13,7 +13,7 @@ function Aside(props) {
             icon: 'nav-icon fas fa-info-circle',
             submenu: [
                 { url: `${urls.home}`, name: 'Como começar', icon: 'far fa-user nav-icon' },
-                { url: `${urls.crlve}`, name: 'Outras informações', icon: 'far fa-user nav-icon' },
+                { url: `${urls.componentsScreen}`, name: 'Outras informações', icon: 'far fa-user nav-icon' },
             ]
         },
         {
@@ -21,7 +21,7 @@ function Aside(props) {
             icon: 'nav-icon fas fa-ruler-combined',
             submenu: [
                 { url: `${urls.home}`, name: 'Accordion', icon: 'far fa-user nav-icon' },
-                { url: `${urls.crlve}`, name: 'Lista de componentes', icon: 'far fa-user nav-icon' },
+                { url: `${urls.componentsScreen}`, name: 'Lista de componentes', icon: 'far fa-user nav-icon' },
             ]
         },
         {
@@ -29,9 +29,9 @@ function Aside(props) {
             icon: 'nav-icon fas fa-puzzle-piece',
             submenu: [
                 { url: `${urls.home}`, name: 'Accordion', icon: 'far fa-user nav-icon' },
-                { url: `${urls.crlve}`, name: 'Input Text', icon: 'far fa-user nav-icon' },
-                { url: `${urls.crlve}`, name: 'Input Select', icon: 'far fa-user nav-icon' },
-                { url: `${urls.crlve}`, name: 'Button', icon: 'far fa-user nav-icon' },
+                { url: `${urls.componentsScreen}`, name: 'Input Text', icon: 'far fa-user nav-icon' },
+                { url: `${urls.componentsScreen}`, name: 'Input Select', icon: 'far fa-user nav-icon' },
+                { url: `${urls.componentsScreen}`, name: 'Button', icon: 'far fa-user nav-icon' },
             ]
         },
     ]

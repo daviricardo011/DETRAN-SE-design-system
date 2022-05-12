@@ -1,7 +1,7 @@
 import Home from './home'
-import Crlve from './servicos-legado/crlve'
+import ComponentsScreen from './componentsPage'
 
 export {
     Home,
-    Crlve
+    ComponentsScreen
 }

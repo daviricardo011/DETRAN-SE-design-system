@@ -2,81 +2,52 @@
 import React, { useState } from 'react'
 import './styles.css'
 import { Link } from 'react-router-dom'
-import { Header } from '../../../components'
-import { urls } from '../../../../main/routes/urls'
+import { urls } from '../../../main/routes/urls'
+import {
+    CardContainer, MainTitle, BreadCrumb, SectionContainer, SubTitle,
+    InputText, InputSelect,
+} from '../../components/web-Components'
 
 
-export default function Crlve() {
+export default function ComponentsScreen() {
     const path = [
         {
             title: 'Início',
             url: urls.home,
         },
         {
-            title: 'Lista de Componentes',
-            url: urls.crlve,
+            title: 'Componentes',
+            url: urls.componentsScreen,
+        },
+        {
+            title: 'Breadcrumb',
+            url: urls.componentsScreen,
         },
     ]
 
+    const optionsSelectInput = [
+        { value: '0', key: '0', label: 'Opção 1' },
+        { value: '1', key: '1', label: 'Opção 2' },
+        { value: '2', key: '2', label: 'Opção 3' },
+        { value: '3', key: '3', label: 'Opção 4' },
+        { value: '4', key: '4', label: 'Opção 5' },
+    ]
+
+
     return (
-        <div className='containerService card'>
-            <div>
-                <div className='titleContainer'>
-                    <spam className='titleDoubleLine'></spam>
-                    <div className='containerText'>
-                        <p className='titleText'>Lista de Componentes</p>
-                    </div>
-                    <spam className='titleDoubleLine'></spam>
-                </div>
-            </div>
+        <>
+            <CardContainer>
 
-            <div>
-                <div className='breadcrumbComponent'>
-                    {
-                        path.map((item, index) => (
-                            index + 1 != path.length
-                                ? <spam><Link to={item.url}>{item.title}</Link><i className='fas fa-angle-right arrowRightBreadcrumb' /> </spam>
-                                : <spam className='actualItemBreadcrumb'>{item.title}</spam>
-                        ))
-                    }
-                </div>
-            </div>
+                <BreadCrumb path={path} />
+                <MainTitle title={'Página Inicial'} />
+                <SectionContainer title={'Identificação do condutor, permissionário ou candidato'}>
 
-            <div className='sectionService'>
-                <div className='sectionHeader'>
-                    <p className='m-0 sectionTitle'>
-                        Identificação do condutor, permissionário ou candidato
-                    </p>
-                </div>
-                <div className='sectionContent'>
-                    <p className='internalTitle'>Preencha todos os campos</p>
+                    <SubTitle title={'Preencha todos os campos'} />
 
-                    <div className='completeInput'>
-                        <label className='inputLabel'>CPF</label>
-                        <input type="text" className="serviceInputText" placeholder='000.000.000-00' />
-                    </div>
+                    <InputText label={'Input Text'} type={'text'} placeholder={'placeholder'} name={'inputText'} />
 
-                    <div className='completeInput'>
-                        <label className='inputLabel-disabled'>CPF</label>
-                        <input type="text" className="serviceInputText-disabled" placeholder='000.000.000-00' disabled value="123.456.789-10" />
-                    </div>
+                    <InputSelect options={optionsSelectInput} label={'Input Select'} placeholder={'Selecione uma opção'} name={'inputText'} />
 
-
-                    <div className='completeSelectInput'>
-                        <label className='selectInputLabel'>Tipo de Documento</label>
-                        <select type="text" className="serviceSelectInput">
-                            <option className='text-secondary '>Selecione o tipo de documento</option>
-                            <option>Identidade</option>
-                            <option>Passaporte</option>
-                        </select>
-                    </div>
-
-                    <div className='completeSelectInput'>
-                        <label className='selectInputLabel-disabled'>Tipo de Documento</label>
-                        <select type="text" className="serviceSelectInput-disabled" disabled>
-                            <option className='text-secondary'>Identidade</option>
-                        </select>
-                    </div>
 
                     <div className='completeCheckInput'>
                         <input type="checkbox" className="checkboxInput" id="checkInput" />
@@ -124,7 +95,8 @@ export default function Crlve() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </SectionContainer>
+
                 <div className='sectionService'>
                     <div className='sectionHeader'>
                         <p className='m-0 sectionTitle'>
@@ -235,7 +207,7 @@ export default function Crlve() {
 
                     </div>
                 </div>
-            </div>
-        </div >
+            </CardContainer >
+        </>
     )
 }
