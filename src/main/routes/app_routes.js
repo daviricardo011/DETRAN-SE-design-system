@@ -16,7 +16,7 @@ const AppRoutes = () => {
     return (
         <Menu userData={user}>
             <Routes>
-                <Route path={`${urls.home}`} element={<Home />} />
+                <Route path={`${urls.home}`} element={<ComponentsScreen />} />
                 <Route path={`${urls.componentsScreen}`} element={<ComponentsScreen />} />
             </Routes>
         </Menu>
