@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d418c0e.chunk.css",
-    "main.js": "/static/js/main.fdb25bdc.chunk.js",
-    "main.js.map": "/static/js/main.fdb25bdc.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.793745ee.js",
-    "runtime-main.js.map": "/static/js/runtime-main.793745ee.js.map",
-    "static/css/2.d344b5ea.chunk.css": "/static/css/2.d344b5ea.chunk.css",
-    "static/js/2.53bdaff9.chunk.js": "/static/js/2.53bdaff9.chunk.js",
-    "static/js/2.53bdaff9.chunk.js.map": "/static/js/2.53bdaff9.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.d344b5ea.chunk.css.map": "/static/css/2.d344b5ea.chunk.css.map",
-    "static/css/main.9d418c0e.chunk.css.map": "/static/css/main.9d418c0e.chunk.css.map",
-    "static/js/2.53bdaff9.chunk.js.LICENSE.txt": "/static/js/2.53bdaff9.chunk.js.LICENSE.txt",
-    "static/media/Logo-completo-branco.c8577ff7.svg": "/static/media/Logo-completo-branco.c8577ff7.svg",
-    "static/media/LogoGov.a0051f23.svg": "/static/media/LogoGov.a0051f23.svg",
-    "static/media/logo-colorido.d9c724ca.svg": "/static/media/logo-colorido.d9c724ca.svg"
+    "main.css": "/DETRAN-SE-design-system/static/css/main.9d418c0e.chunk.css",
+    "main.js": "/DETRAN-SE-design-system/static/js/main.8f7adfd1.chunk.js",
+    "main.js.map": "/DETRAN-SE-design-system/static/js/main.8f7adfd1.chunk.js.map",
+    "runtime-main.js": "/DETRAN-SE-design-system/static/js/runtime-main.36ab26c0.js",
+    "runtime-main.js.map": "/DETRAN-SE-design-system/static/js/runtime-main.36ab26c0.js.map",
+    "static/css/2.d344b5ea.chunk.css": "/DETRAN-SE-design-system/static/css/2.d344b5ea.chunk.css",
+    "static/js/2.d1e57500.chunk.js": "/DETRAN-SE-design-system/static/js/2.d1e57500.chunk.js",
+    "static/js/2.d1e57500.chunk.js.map": "/DETRAN-SE-design-system/static/js/2.d1e57500.chunk.js.map",
+    "index.html": "/DETRAN-SE-design-system/index.html",
+    "static/css/2.d344b5ea.chunk.css.map": "/DETRAN-SE-design-system/static/css/2.d344b5ea.chunk.css.map",
+    "static/css/main.9d418c0e.chunk.css.map": "/DETRAN-SE-design-system/static/css/main.9d418c0e.chunk.css.map",
+    "static/js/2.d1e57500.chunk.js.LICENSE.txt": "/DETRAN-SE-design-system/static/js/2.d1e57500.chunk.js.LICENSE.txt",
+    "static/media/Logo-completo-branco.c8577ff7.svg": "/DETRAN-SE-design-system/static/media/Logo-completo-branco.c8577ff7.svg",
+    "static/media/LogoGov.a0051f23.svg": "/DETRAN-SE-design-system/static/media/LogoGov.a0051f23.svg",
+    "static/media/logo-colorido.d9c724ca.svg": "/DETRAN-SE-design-system/static/media/logo-colorido.d9c724ca.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.793745ee.js",
+    "static/js/runtime-main.36ab26c0.js",
     "static/css/2.d344b5ea.chunk.css",
-    "static/js/2.53bdaff9.chunk.js",
+    "static/js/2.d1e57500.chunk.js",
     "static/css/main.9d418c0e.chunk.css",
-    "static/js/main.fdb25bdc.chunk.js"
+    "static/js/main.8f7adfd1.chunk.js"
   ]
 }
