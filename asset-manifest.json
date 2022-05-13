@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/DETRAN-SE-design-system/static/css/main.2a7e7261.chunk.css",
-    "main.js": "/DETRAN-SE-design-system/static/js/main.0e7aa4bd.chunk.js",
-    "main.js.map": "/DETRAN-SE-design-system/static/js/main.0e7aa4bd.chunk.js.map",
+    "main.css": "/DETRAN-SE-design-system/static/css/main.37f90adc.chunk.css",
+    "main.js": "/DETRAN-SE-design-system/static/js/main.24a845bc.chunk.js",
+    "main.js.map": "/DETRAN-SE-design-system/static/js/main.24a845bc.chunk.js.map",
     "runtime-main.js": "/DETRAN-SE-design-system/static/js/runtime-main.36ab26c0.js",
     "runtime-main.js.map": "/DETRAN-SE-design-system/static/js/runtime-main.36ab26c0.js.map",
     "static/css/2.d344b5ea.chunk.css": "/DETRAN-SE-design-system/static/css/2.d344b5ea.chunk.css",
-    "static/js/2.31c9dc69.chunk.js": "/DETRAN-SE-design-system/static/js/2.31c9dc69.chunk.js",
-    "static/js/2.31c9dc69.chunk.js.map": "/DETRAN-SE-design-system/static/js/2.31c9dc69.chunk.js.map",
+    "static/js/2.39bb6567.chunk.js": "/DETRAN-SE-design-system/static/js/2.39bb6567.chunk.js",
+    "static/js/2.39bb6567.chunk.js.map": "/DETRAN-SE-design-system/static/js/2.39bb6567.chunk.js.map",
     "index.html": "/DETRAN-SE-design-system/index.html",
     "static/css/2.d344b5ea.chunk.css.map": "/DETRAN-SE-design-system/static/css/2.d344b5ea.chunk.css.map",
-    "static/css/main.2a7e7261.chunk.css.map": "/DETRAN-SE-design-system/static/css/main.2a7e7261.chunk.css.map",
-    "static/js/2.31c9dc69.chunk.js.LICENSE.txt": "/DETRAN-SE-design-system/static/js/2.31c9dc69.chunk.js.LICENSE.txt",
-    "static/media/Logo-completo-branco.c8577ff7.svg": "/DETRAN-SE-design-system/static/media/Logo-completo-branco.c8577ff7.svg",
+    "static/css/main.37f90adc.chunk.css.map": "/DETRAN-SE-design-system/static/css/main.37f90adc.chunk.css.map",
+    "static/js/2.39bb6567.chunk.js.LICENSE.txt": "/DETRAN-SE-design-system/static/js/2.39bb6567.chunk.js.LICENSE.txt",
     "static/media/LogoGov.a0051f23.svg": "/DETRAN-SE-design-system/static/media/LogoGov.a0051f23.svg",
-    "static/media/logo-colorido.d9c724ca.svg": "/DETRAN-SE-design-system/static/media/logo-colorido.d9c724ca.svg"
+    "static/media/logo-colorido.d9c724ca.svg": "/DETRAN-SE-design-system/static/media/logo-colorido.d9c724ca.svg",
+    "static/media/logo-verbose-white.ddfe6273.svg": "/DETRAN-SE-design-system/static/media/logo-verbose-white.ddfe6273.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.36ab26c0.js",
     "static/css/2.d344b5ea.chunk.css",
-    "static/js/2.31c9dc69.chunk.js",
-    "static/css/main.2a7e7261.chunk.css",
-    "static/js/main.0e7aa4bd.chunk.js"
+    "static/js/2.39bb6567.chunk.js",
+    "static/css/main.37f90adc.chunk.css",
+    "static/js/main.24a845bc.chunk.js"
   ]
 }
