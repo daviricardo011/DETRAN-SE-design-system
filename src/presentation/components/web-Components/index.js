@@ -1,3 +1,5 @@
+import Menu from "./menu";
+
 import CardContainer from "./containers/container-content";
 import SectionContainer from "./containers/section-content";
 import LabelContainer from "./containers/label-container";
@@ -11,6 +13,8 @@ import InputSelect from "./inputs/inputSelect";
 
 
 export {
+    Menu,
+
     CardContainer,
     SectionContainer,
     LabelContainer,

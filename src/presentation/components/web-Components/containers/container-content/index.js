@@ -5,7 +5,7 @@ export default function CardContainer(props) {
 
     const Container = styled.div`
         padding: 20px 20px;
-        margin: 0px 20px;
+        /* margin: 0px 20px; */
     `
 
 
